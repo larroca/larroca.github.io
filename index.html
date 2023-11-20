@@ -33,13 +33,16 @@
 			        list-style: none;
 			        padding: 0;
 			    }
-			
+						
 			    nav li {
-			        display: inline-block;
-			        margin: 10px; /* Adjust the margin to control the space between menu items */
-			        background-color: #333; /* Set the background color for the squares */
-			        border-radius: 5px; /* Add rounded corners to the squares */
-			        padding: 40px 20px; /* Adjust padding to control the size of the squares */
+			        display: inline-flex; /* Change to flex container */
+			        flex-direction: column; /* Stack the items vertically */
+			        align-items: center; /* Center items vertically */
+			        justify-content: center; /* Center items horizontally */
+			        margin: 10px;
+			        background-color: #333;
+			        border-radius: 5px;
+			        padding: 40px 20px;
 			    }
 			
 			    nav li a {
